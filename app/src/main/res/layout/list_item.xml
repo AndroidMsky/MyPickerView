@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="50dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="0dp" >
+
+  
+ 
+    <TextView
+        android:id="@+id/text"
+        android:background="@layout/shape_bule_button"
+        android:layout_width="80dp"
+        android:textColor="#FFFFFF"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/image"
+        android:layout_centerHorizontal="true"
+        android:text="sdsdd"
+        android:gravity="center"
+        android:textSize="20dp" />
+
+</RelativeLayout>
